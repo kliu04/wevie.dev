@@ -1,0 +1,2 @@
+# wevie.dev
+personal website
