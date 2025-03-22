@@ -31,51 +31,155 @@
                 </ul>
             </div>
             <div>
-                <!-- table, ranking, dates -->
-                Relevant Coursework:
-                GPA: 88%, CPSC GPA: 95%
-                <ul>
-                    <li>CPSC 110 (CH) (Computation, Programs, and Programming) (2023W1) -- program design, templates
-                    </li>
-                    <li>CPSC 121 (Models of Computation) (2023W1) -- circuit design, proofs</li>
-                    <li>CPSC 210 (Software Construction) (2023W1) -- OOP in Java, inheritance, polymorphism, design
-                        recipes
-                    </li>
-                    <li>CPSC 213 (Introduction to Computer Systems) (2023W2) -- assembly, C programming</li>
-                    <li>CPSC 221 (Basic Algorithms and Data Structures) (2023W2) -- trees, heaps, graphs, etc.</li>
-                    <li>CPSC 311 (Definition of Programming Languages) (2024W1) -- design and implementation of
-                        interpreters
-                    </li>
-                    <li>CPSC 312 (Functional and Logic Programming) (2024W1) -- functional paradigms, monads, Haskell,
-                        Prolog
-                    </li>
-                    <li>CPSC 313 (Computer Hardware and Operating Systems) (2024W2) -- caching, pipelining, filesystems,
-                        system
-                        calls</li>
-                    <li>CPSC 320 (Intermediate Algorithm Design and Analysis) (2024S2?) -- dynamic programming, greedy
-                        algorithms, P/NP</li>
-                    <li>CPSC 349 (Honours Research Seminar) (2024W) -- talks about different research areas in CS</li>
-                    <li>CPSC 411 (Introduction to Compiler Construction) (2024W2) -- building a racket -> x86 compiler
-                        from
-                        scratch</li>
-                    <li>CPSC 421 (Introduction to Theory of Computation) (2024W1) -- halting problem, dfa/nfa, regular
-                        languages
-                    </li>
-                    <li>CPSC 448A (Directed Studies in Computer Science) (2024W2) -- see above</li>
-                </ul>
-                <ul>
-                    <li>MATH 120 (TR) (Honours Calculus I) (2022W1) -- differentiation</li>
-                    <li>MATH 121 (TR) (Honours Calculus II) (2022W2) -- integration</li>
-                    <li>MATH 223 (TR) (Honours Linear Algebra) (2022W1) -- diagonalization, linear transformations,
-                        vector
-                        spaces</li>
-                    <li>MATH 226 (Advanced Calculus I) (2023W1) -- partial derivatives</li>
-                    <li>MATH 302 (Introduction to Probability) (2023S2?) -- probability distributions, central limit
-                        theorem
-                    </li>
-                    <li>MATH 320 (Real Variables I) (2024W1) -- metric spaces, lots of proofs</li>
-                    <li>MATH 342 (Algebra and Coding Theory) (2024W1) -- error correcting codes</li>
-                </ul>
+                <div>
+                    <!-- Table version of Relevant Coursework -->
+                    <h4>Relevant Coursework:</h4>
+                    <p>GPA: 88%, CPSC GPA: 95%</p>
+                    <table border="1" cellspacing="0" cellpadding="5" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Course Code</th>
+                                <th>Title</th>
+                                <th>Term</th>
+                                <th>Topics Covered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- CPSC Courses -->
+                            <tr>
+                                <td>CPSC 110<sup>13</sup></td>
+                                <td>Computation, Programs, and Programming</td>
+                                <td>2023W1</td>
+                                <td>program design, templates</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 121<sup>3</sup></td>
+                                <td>Models of Computation</td>
+                                <td>2023W1</td>
+                                <td>circuit design, proofs</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 210<sup>3</sup></td>
+                                <td>Software Construction</td>
+                                <td>2023W1</td>
+                                <td>OOP in Java, inheritance, polymorphism, design recipes</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 213<sup>3</sup></td>
+                                <td>Introduction to Computer Systems</td>
+                                <td>2023W2</td>
+                                <td>assembly and C programming</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 221<sup>3</sup></td>
+                                <td>Basic Algorithms and Data Structures</td>
+                                <td>2023W2</td>
+                                <td>trees, heaps, graphs, etc.</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 311</td>
+                                <td>Definition of Programming Languages</td>
+                                <td>2024W1</td>
+                                <td>design and implementation of interpreters</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 312</td>
+                                <td>Functional and Logic Programming</td>
+                                <td>2024W1</td>
+                                <td>functional paradigms, monads, Haskell, Prolog</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 313<sup>3</sup></td>
+                                <td>Computer Hardware and Operating Systems</td>
+                                <td>2024W2</td>
+                                <td>caching, pipelining, filesystems, system calls</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 320<sup>3</sup></td>
+                                <td>Intermediate Algorithm Design and Analysis</td>
+                                <td>2024S2?</td>
+                                <td>dynamic programming, greedy algorithms, P/NP</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 349<sup>4</sup></td>
+                                <td>Honours Research Seminar</td>
+                                <td>2024W</td>
+                                <td>talks on different research areas in CS</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 411</td>
+                                <td>Introduction to Compiler Construction</td>
+                                <td>2024W2</td>
+                                <td>creating a Racket → x86 compiler from scratch, compiler optimization</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 421</td>
+                                <td>Introduction to Theory of Computation</td>
+                                <td>2024W1</td>
+                                <td>halting problem, DFA/NFA, regular languages</td>
+                            </tr>
+                            <tr>
+                                <td>CPSC 448A</td>
+                                <td>Directed Studies in Computer Science</td>
+                                <td>2024W2</td>
+                                <td>see above</td>
+                            </tr>
+
+                            <!-- MATH Courses -->
+                            <tr>
+                                <td>MATH 120<sup>2</sup></td>
+                                <td>Honours Calculus I</td>
+                                <td>2022W1</td>
+                                <td>differentiation</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 121<sup>2</sup></td>
+                                <td>Honours Calculus II</td>
+                                <td>2022W2</td>
+                                <td>integration</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 223<sup>2</sup></td>
+                                <td>Honours Linear Algebra</td>
+                                <td>2022W1</td>
+                                <td>vector spaces, diagonalization, linear transformations</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 226</td>
+                                <td>Advanced Calculus I</td>
+                                <td>2023W1</td>
+                                <td>partial derivatives, integration in n variables</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 302<sup>4</sup></td>
+                                <td>Introduction to Probability</td>
+                                <td>2023S2?</td>
+                                <td>probability distributions, central limit theorem</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 320</td>
+                                <td>Real Variables I</td>
+                                <td>2024W1</td>
+                                <td>metric spaces, rigourous proofs</td>
+                            </tr>
+                            <tr>
+                                <td>MATH 342</td>
+                                <td>Algebra and Coding Theory</td>
+                                <td>2024W1</td>
+                                <td>error correcting codes, e.g. Hamming codes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Footnotes -->
+                    <p>
+                        <b>Footnotes:</b><br>
+                        <sup>1</sup>Challenged<br>
+                        <sup>2</sup>Transfer<br>
+                        <sup>3</sup>Required<br>
+                        <sup>4</sup>Required (for Honours)
+                    </p>
+                </div>
             </div>
         </div>
         <div id="footer" class="footer"></div>
