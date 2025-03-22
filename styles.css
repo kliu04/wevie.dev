@@ -10,12 +10,12 @@ body {
     padding-top: 1vh;
     flex-direction: column;
     min-height: 95vh;
-    width: 75vw;
+    max-width: 75vw;
 }
 
 @media (max-width: 1024px) {
     #wrapper {
-        width: 100vh;
+        max-width: 100vh;
     }
 }
 
